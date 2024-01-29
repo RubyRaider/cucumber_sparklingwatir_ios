@@ -1,0 +1,9 @@
+
+platformName: iOS
+appium:options:
+  url: http://localhost:4723/wd/hub
+  platformVersion: "14.0"
+  deviceName: iPhone 11
+  automationName: XCUITest
+  app: "MyRNDemoApp.app"
+  autoDismissAlerts: true
